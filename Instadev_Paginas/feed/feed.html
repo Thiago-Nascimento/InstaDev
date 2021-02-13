@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed - InstaDev</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../header.css">
+    <link rel="stylesheet" href="feed.css">
+</head>
+<body>
+    <header>
+        <div class="header-line">
+            <div class="container-central cabecalho-pag">
+                <img class="logo-header" src="../assets/instadev-logo.svg" alt="Logo do Instadev">
+                <form action="">
+                    <input class="input-padrao campo-busca" placeholder="Pesquisar" type="text">
+                    <input class="submit-busca" type="submit">
+                </form>
+                <nav class="menu">
+                    <a href="feed.html"><img src="../assets/home.svg" alt="Feed"></a>
+                    <a href="../perfil/perfil.html"><img class="img-perfil" src="../assets/thank-you.png" alt="Perfil"></a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-central feed">
+            <div class="feed-esquerdo">
+                <div class="pessoas">
+                    <div class="amigo">
+                        <img src="../assets/vin-diesel.jpg" alt="Vin Diesel">
+                        <p>vin_diesel</p>
+                    </div>
+                    <div class="amigo">
+                        <img src="../assets/gabigordo.jpg" alt="Gabi Gordo">
+                        <p>gabigordo</p>
+                    </div>
+                    <div class="amigo">
+                        <img src="../assets/will-baiano.jpg" alt="Will Baiano">
+                        <p>will_baiano</p>
+                    </div>
+                    <div class="amigo">
+                        <img src="../assets/tony_stark.jpg" alt="Adriano Stark">
+                        <p>adriano_stark</p>
+                    </div>
+                    <div class="amigo">
+                        <img src="../assets/pele.jpg" alt="King Pele">
+                        <p>king_pele</p>
+                    </div>
+                    <div class="amigo">
+                        <img src="../assets/samuel-rosa-bebê.jpg" alt="Samuel Rosa Bebe">
+                        <p>samuel_rosa</p>
+                    </div>
+                    <div class="amigo">
+                        <img src="../assets/phil-claudio-gonzales-e-a-cara-do-chaves-1601293813371_v2_600x600.jpg" alt="Chaves Metaleiro">
+                        <p>chaves_metal</p>
+                    </div>
+                </div>
+
+                <div class="postar">
+                    <div class="linha-postar">
+                        <img src="../assets/thank-you.png" alt="Marcus Jeeves">
+                        <p>Postar</p>
+                    </div>
+                    <form class="form-post" action="">
+                        <input class="input-padrao" type="text" placeholder="Digite a legenda da foto...">
+                        <label for="imagem-post">Escolha a imagem</label>
+                        <input type="file" class="imagem-post" name="imagem-post" id="imagem-post">
+                        <input class="botao-padrao" type="submit" value="Postar">
+                    </form>
+                </div>
+                
+                <article class="post">
+                    <header>
+                        <img class="user" src="../assets/gabigordo.jpg" alt="gabigordo">
+                        <div>
+                            <p class="username">gabigordo</p>
+                            <p>Flamengo, RJ</p>
+                        </div>
+                    </header>
+                    <section class="corpo-post">
+                        <img class="foto-post" src="../assets/post-gabigordo.jpg" alt="post de gabigordo">
+                        <div class="interacoes">
+                            <a href="#"><img src="../assets/heart.svg" alt=""></a>
+                            <a href="#"><img src="../assets/comment.svg" alt=""></a>
+                            <input type="text" placeholder="Comentar...">
+                        </div>
+                        <p class="num-likes">2000 Curtidas</p>
+                        <div class="comentarios">
+                            <div class="comentario">
+                                <p class="nick">gabigordo</p>
+                                <p><span>#flamengo</span> amo voces mil milhões</p>
+                            </div>
+                            <div class="comentario">
+                                <p class="nick">yes_baby</p>
+                                <p>thank you</p>
+                            </div>
+                            <div class="comentario">
+                                <p class="nick">king_pele</p>
+                                <p>Esses são bons de bola, entende?</p>
+                            </div>
+                        </div>
+                    </section>
+                </article>
+                
+            </div>
+            <aside class="menu-lateral">
+                <div class="user-lateral">
+                    <img class="img-user" src="../assets/thank-you.png" alt="yes_baby">
+                    <div>
+                        <p>yes_baby</p>
+                        <p class="name">Marcos Jeeves</p>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+</body>
+</html>

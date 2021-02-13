@@ -1,0 +1,37 @@
+.header-line {
+    border-bottom: 1px solid var(--cinza);
+    background-color: white;
+}
+
+.cabecalho-pag {
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-header {
+    height: 27px;
+}
+
+.campo-busca {
+    height: 28px;
+    width: 215px;
+    text-indent: 82px;
+}
+
+.submit-busca {
+    display: none;
+}
+
+.menu {
+    width: 100px;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .img-perfil {
+    height: 33px;
+    border-radius: 50px;
+}

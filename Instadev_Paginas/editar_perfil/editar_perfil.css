@@ -1,0 +1,110 @@
+main {
+    margin-top: 30px;
+}
+
+.main-editar {
+    display: flex;
+
+    background-color: white;
+    border: 1px solid var(--cinza);
+}
+
+.esquerdo {
+    width: 30%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-left: 2px solid black;
+}
+
+.direito {
+    width: 75%;
+}
+
+.img-perfil-form {
+    height: 50px;
+    border-radius: 50px;
+}
+
+.linha-form {
+    width: 80%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.conjunto {
+    margin-bottom: 30px;
+}
+
+.username-primeiro {
+    width: 354px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.imagemPerfil {
+    opacity: 0;
+    width: 0.01px;
+    height: 0.01px;
+}  
+
+label[for="imagemPerfil"] {
+    color: var(--azul);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.labels-form {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.texto-conteudo {
+    width: 354px;
+    color: var(--cinza-escuro);
+    font-size: 12px;
+}
+
+.info-pessoais {
+    font-weight: 600;
+}
+
+.desativar-conta {
+    color: var(--azul);
+    font-weight: 600;
+    margin-left: 76.5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.input-editar {
+    height: 30px;
+    width: 354px;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.submit-editar {
+    height: 30px;
+    width: 66px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.direito form {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.direito-linha {
+    margin-left: 20px;
+}
+
+.esquerdo h1 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 30px;
+}

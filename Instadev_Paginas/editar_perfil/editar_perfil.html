@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Perfil - InstaDev</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../header.css">
+    <link rel="stylesheet" href="editar_perfil.css">
+</head>
+<body>
+    <header>
+        <div class="header-line">
+            <div class="container-central cabecalho-pag">
+                <img class="logo-header" src="../assets/instadev-logo.svg" alt="Logo do Instadev">
+                <form action="">
+                    <input class="input-padrao campo-busca" placeholder="Pesquisar" type="text">
+                    <input class="submit-busca" type="submit">
+                </form>
+                <nav class="menu">
+                    <a href="feed.html"><img src="../assets/home.svg" alt="Feed"></a>
+                    <a href="../perfil/perfil.html"><img class="img-perfil" src="../assets/thank-you.png" alt="Perfil"></a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-central main-editar">
+            <div class="esquerdo">
+                <h1>Editar Perfil</h1>
+            </div>
+            <div class="direito">
+                <form action="">
+                    <div class="linha-form conjunto">
+                        <img class="img-perfil-form" src="../assets/thank-you.png" alt="Imagem de Perfil">
+                        <div>
+                            <p class="username-primeiro direito-linha">yes_baby</p>
+                            <label class="direito-linha" for="imagemPerfil">Alterar foto do perfil</label>
+                            <input type="file" name="imagemPerfil" class="imagemPerfil" id="imagemPerfil">
+                        </div>
+                    </div>
+    
+                    <div class="linha-form">
+                        <label class="labels-form" for="nome">Nome</label>
+                        <input class="input-padrao input-editar" id="nome" type="text">
+                    </div>
+    
+                    <div class="linha-form">
+                        <p class="texto-conteudo">Ajude as pessoas a descobrir sua conta usando o nome pelo qual você é conhecido: seu nome completo, apelido ou nome comercial.</p>
+                    </div>
+                    <div class="linha-form">
+                        <p class="texto-conteudo conjunto">Você pode alterar o seu nome apenas duas vezes a cada 14 dias.</p>
+                    </div>
+    
+                    <div class="linha-form">
+                        <label class="labels-form" for="username">Nome de usuário</label>
+                        <input class="input-padrao input-editar" id="username" type="text">
+                    </div>
+    
+                    <div class="linha-form">
+                        <p class="texto-conteudo conjunto">Na maioria dos casos, você poderá alterar seu nome de usuário novamente para nascimento_tr por mais 14 dias.</p>
+                    </div>
+    
+                    <div class="linha-form">
+                        <p class="texto-conteudo info-pessoais">Informações pessoais</p>                        
+                    </div>
+                    <div class="linha-form">
+                        <p class="texto-conteudo">Forneça suas informações pessoais, mesmo se a conta for usada para uma empresa, um animal de estimação ou outra coisa. Elas não farão parte do seu perfil público.</p>                        
+                    </div>
+    
+                    <div class="linha-form conjunto">
+                        <label class="labels-form" for="email">Email</label>
+                        <input class="input-padrao input-editar" id="email" type="email">
+                    </div>
+    
+                    <div class="linha-form">
+                        <input class="botao-padrao submit-editar" type="submit" value="Enviar">
+                        <a href="#" class="desativar-conta">Desativar minha conta definitivamente</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>    
+</body>
+</html>
